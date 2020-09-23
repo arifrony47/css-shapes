@@ -1,0 +1,76 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.square{
+	height: 150px;
+	width: 150px;
+	background: blue;
+}
+.rectangle{
+	height: 100px;
+	width: 200px;
+	background: coral;
+}
+.circle{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: brown;
+}
+.oval{
+	height: 200px;
+	width: 150px;
+	border-radius: 75px/100px;
+	background: black;
+}
+.triangle-upright{
+	height: 0;
+	width: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid yellow;
+}
+.triangle-downside{
+	height: 0;
+	width: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 150px solid green;
+}
+.triangle-left{
+	height: 0;
+	width: 0;
+	border-bottom: 100px solid transparent;
+	border-right: 150px solid orange;
+	border-top: 100px solid transparent;
+}
+.triangle-right{
+	height: 0;
+	width: 0;
+	border-left: 150px solid red;
+	border-bottom: 100px solid transparent;
+	border-top: 100px solid transparent;
+}
+.trapizium{
+	height: 0;
+	width: 0;
+	border-left: 100px solid transparent;
+	border-right: 150px solid gray;
+	border-bottom: 100px solid gray;
+}
+.rhombus1{
+	height: 0;
+	width: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid violet;
+}
+.rhombus2{
+	height: 0;
+	width: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 150px solid violet;
+}
